@@ -4,7 +4,7 @@
   "description": "A slack bot that moderates mafia games",
   "main": "./build/main.js",
   "scripts": {
-    "start": "node .",
+    "start": "npm run build && node .",
     "startdev": "MAFIA_ENV=DEBUG node .",
     "dev": "backpack",
     "build": "backpack build",
